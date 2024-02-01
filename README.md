@@ -71,38 +71,32 @@ where `delta` is the Dirac delta function.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-degenerate-pdf
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-pdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pdf@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var pdf = require( 'path/to/vendor/umd/stats-base-dists-degenerate-pdf/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pdf@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.pdf;
-})();
-</script>
+var pdf = require( '@stdlib/stats-base-dists-degenerate-pdf' );
 ```
 
 #### pdf( x, mu )
@@ -144,15 +138,10 @@ y = mypdf( 12.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-pdf@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var pdf = require( '@stdlib/stats-base-dists-degenerate-pdf' );
 
 var mu;
 var x;
@@ -165,11 +154,6 @@ for ( i = 0; i < 100; i++ ) {
     y = pdf( x, mu );
     console.log( 'x: %d, µ: %d, f(x;µ): %d', x, mu, y );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -247,8 +231,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/tree/deno
+[deno-readme]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/tree/umd
+[umd-readme]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/tree/esm
+[esm-readme]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-degenerate-pdf/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-degenerate-pdf/main/LICENSE
