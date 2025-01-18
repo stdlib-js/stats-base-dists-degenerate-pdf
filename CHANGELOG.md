@@ -2,6 +2,62 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-01-18)
+
+<section class="features">
+
+### Features
+
+-   [`ce23df1`](https://github.com/stdlib-js/stdlib/commit/ce23df1c97ca2955cfeaea2c539f63d64d655612) - add C implementation for `stats/base/dists/degenerate/pdf` [(#4585)](https://github.com/stdlib-js/stdlib/pull/4585)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3544](https://github.com/stdlib-js/stdlib/issues/3544)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ce23df1`](https://github.com/stdlib-js/stdlib/commit/ce23df1c97ca2955cfeaea2c539f63d64d655612) - **feat:** add C implementation for `stats/base/dists/degenerate/pdf` [(#4585)](https://github.com/stdlib-js/stdlib/pull/4585) _(by Karan Anand, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Karan Anand
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
