@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-03-10)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`1fc3918`](https://github.com/stdlib-js/stdlib/commit/1fc3918810a556d2593f4ec8a0764dce88a519fc) - **bench:** refactor random number generation in `stats/base/dists/degenerate` [(#4862)](https://github.com/stdlib-js/stdlib/pull/4862) _(by Karan Anand)_
 -   [`ce23df1`](https://github.com/stdlib-js/stdlib/commit/ce23df1c97ca2955cfeaea2c539f63d64d655612) - **feat:** add C implementation for `stats/base/dists/degenerate/pdf` [(#4585)](https://github.com/stdlib-js/stdlib/pull/4585) _(by Karan Anand, stdlib-bot)_
 
 </details>
