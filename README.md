@@ -149,7 +149,7 @@ var opts = {
 var x = discreteUniform( 100, 0, 5, opts );
 var mu = discreteUniform( 100, 0, 5, opts );
 
-logEachMap( 'x: %0.4f, µ: %0.4f, f(x;µ): %0.4f', x, mu, pdf );
+logEachMap( 'x: %d, µ: %d, f(x;µ): %0.4f', x, mu, pdf );
 ```
 
 </section>
@@ -286,7 +286,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
