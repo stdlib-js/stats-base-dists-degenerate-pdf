@@ -46,7 +46,7 @@ f(x;\mu) = \delta(x-\mu)
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="f(x;\mu) = \delta(x-\mu)" data-equation="eq:degenerate_pdf">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/degenerate/pdf/docs/img/equation_degenerate_pdf.svg" alt="Probability density function (PDF) for a degenerate distribution.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@0b6a176fdab165a791a284bc2b08c69a95eb62f2/lib/node_modules/@stdlib/stats/base/dists/degenerate/pdf/docs/img/equation_degenerate_pdf.svg" alt="Probability density function (PDF) for a degenerate distribution.">
     <br>
 </div> -->
 
@@ -61,7 +61,7 @@ where `delta` is the Dirac delta function.
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="\delta(x) = {\begin{cases}+\infty, &amp; x = 0\\0, &amp; x \neq 0\end{cases}}" data-equation="eq:dirac_delta">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@51534079fef45e990850102147e8945fb023d1d0/lib/node_modules/@stdlib/stats/base/dists/degenerate/pdf/docs/img/equation_dirac_delta.svg" alt="Dirac delta function.">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@0b6a176fdab165a791a284bc2b08c69a95eb62f2/lib/node_modules/@stdlib/stats/base/dists/degenerate/pdf/docs/img/equation_dirac_delta.svg" alt="Dirac delta function.">
     <br>
 </div> -->
 
@@ -149,7 +149,7 @@ var opts = {
 var x = discreteUniform( 100, 0, 5, opts );
 var mu = discreteUniform( 100, 0, 5, opts );
 
-logEachMap( 'x: %d, µ: %d, f(x;µ): %0.4f', x, mu, pdf );
+logEachMap( 'x: %d, μ: %d, f(x;μ): %0.4f', x, mu, pdf );
 ```
 
 </section>
@@ -239,7 +239,7 @@ int main( void ) {
         x = stdlib_base_round( random_uniform( 0.0, 5.0 ) );
         mu = stdlib_base_round( random_uniform( 0.0, 5.0 ) );
         result = stdlib_base_dists_degenerate_pdf( x, mu );
-        printf( "x: %lf, µ: %lf, f(x;µ): %lf \n", x, mu, result );
+        printf( "x: %lf, μ: %lf, f(x;μ): %lf \n", x, mu, result );
     }
 }
 ```
